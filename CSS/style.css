@@ -1,0 +1,45 @@
+h1{
+    font-size: 2rem;
+}
+.container{
+    margin: 5% auto;
+    border-radius: 5px;
+    text-align: center;
+}
+body{
+    background: ghostwhite;
+    color: dimgray;
+    font-family: serif;
+    text-align: center;
+}
+.box{
+    display: inline-block;
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 0;
+}
+span{
+    position: absolute;
+    font-size: 75px;
+    font-family: sans-serif;
+    text-align: center;
+    height: 75px;
+    width: 75px;
+    padding: 0;
+    margin: 5px;
+    margin-left: -35px;
+}
+.top{
+    border-top: none;
+}
+.bottom{
+    border-bottom: none;
+}
+.left{
+    border-left: none;
+}
+.right{
+    border-right: none;
+}
